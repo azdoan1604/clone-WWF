@@ -1,0 +1,165 @@
+﻿body {
+    width: 100%;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: WWF;
+    src: url("fonts/NotoSansSC-Medium.otf");
+}
+
+div {
+    font-family: WWF;
+}
+.paddingbottom {
+    padding-bottom: 20px;
+}
+.navbar-brand img {
+    transform: scale(1.3) translate(5px, -6px);
+}
+.tuade{
+    padding-top:50px;
+}
+#vung01 h1{
+    font-size:45px;
+}
+#vung02 img{
+   width:100%;
+}
+#ngangtren a {
+    height: 70px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+    .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+    }
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {
+        overflow-y: auto;
+    }
+
+        .overlay a {
+            font-size: 20px
+        }
+
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+}
+
+.anh {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .anh a {
+        display: block;
+        width: 100%;
+    }
+
+        .anh a img {
+            width: 100%;
+            height:280px;
+            
+        }
+        #vung02 p{
+            margin-bottom:30px;
+        }
+.container-fluid {
+    max-width: 1330px;
+}
+.col-md-5 p{
+    margin-left:60px;
+    margin-right:60px;
+}
+#vung03 img {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+#vung02 a:hover{
+    text-decoration:none;
+}
+#vung02 a {
+    text-decoration: none;
+    color: #dd681b;
+}
+#ngangduoi {
+    padding: 24px 96px;
+    height: auto;
+    padding-bottom: 80px;
+    margin-left: -70px;
+    margin-right: -15px;
+}
+
+    #ngangduoi ul {
+        font-weight: 700;
+        color: black;
+        list-style: none;
+    }
+
+    #ngangduoi a {
+        color: grey;
+        font-weight: 200;
+    }
+
+        #ngangduoi a:hover {
+            text-decoration: none;
+        }
+
+    #ngangduoi li {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+#ngangduoi02 {
+    margin-left: -86px;
+    margin-right: -68px;
+}

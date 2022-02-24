@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Đại dương | WWF </title>
+    <script src="js/jquery.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="DaiDuong.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div id="vung01">
+        <img src="images/daiduongvung01.jpg" />
+        <div class="noidung01">
+            <h1 style="font-size:50px;">ĐẠI DƯƠNG<hr style="width:40px;background-color:white;height:5px" /></h1>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header" id="menuan">
+        <ul class="list-inline">
+            <li><a href="#"><button class="nut">HOẠT ĐỘNG</button></a></li>
+            <li class="tab" style="height:90px;"><a href="#"><button class="nut">ĐẠI DƯƠNG</button> </a></li>
+            <li><a href="#"><button class="nut">NHỰA</button></a></li>
+            <li><a href="#"><button class="nut">ĐÁNH BẮT HẢI SẢN</button></a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("menuan");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div class="container">
+        <div id="vung02">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        Với đường bờ biển trải dài hơn 3.000 km và vùng lãnh
+                        hải dài hơn 12 hải lý, Việt Nam nằm ở vị trí trung tâm
+                        đa dạng sinh học của các vùng biển nhiệt đới, sở hữu
+                        nguồn cá dồi dào và các hệ sinh thái biển đa dạng
+                        như các rừng ngập mặn, rặng san hô và thảm cỏ biển.
+                        Vậy mà hiện nay, tình trạng suy thoái tài nguyên
+                        và ô nhiễm đại dương nghiêm trọng đã và đang diễn ra,
+                        mặc dù Việt Nam mới chỉ khai thác một phần tiềm năng
+                        kinh tế biển.
+                    </p>
+                    <p>
+                        Được chính phủ và các đối tác tin tưởng trong việc
+                        giải quyết các vấn đề bảo tồn biển, WWF-Việt Nam
+                        đang tập trung vào hai lĩnh vực hoạt động nhằm bảo vệ
+                        hệ sinh thái biển và ven bờ, các loài nguy cấp và
+                        sức khỏe của con người thông qua:
+                    </p>
+                    <ul>
+                        <li>
+                            <p>
+                                Các thành phố cam kết loại bỏ rác thải nhựa,
+                                ban hành và thực thi các chính sách mới để
+                                hạn chế các sản phẩm nhựa sử dụng một lần;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Doanh nghiệp cắt giảm sử dụng sản phẩm nhựa
+                                trong bộ máy vận hành, thiết lập ra và duy trì
+                                một nền tảng chia sẻ kinh nghiệm hiệu quả giữa
+                                các doanh nghiệp;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Trường học triển khai các chương trình giảng dạy
+                                thay đổi hành vi cho học sinh;
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Ngăn chặn ô nhiễm đại dương,
+                                đặc biệt là ô nhiễm biển do rác thải nhựa.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung03">
+
+    </div>
+    <div class="container">
+        <div id="vung04">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        Chúng tôi hiện đang triển khai Dự án Cải thiện
+                        Nghề cá (FIP), hợp tác với doanh nghiệp và Chính phủ
+                        Việt Nam giải quyết tình trạng đánh bắt quá mức
+                        và đảm bảo tính bền vững của loài cá ngừ vây vàng.
+                        Dự án FIP thực hiện các đánh giá về trữ lượng cá,
+                        lượng đánh bắt không chủ đích, mối hiểm hoạ đối với
+                        hệ sinh thái, v.v.; vận động tuân thủ quy định và
+                        thực thi pháp luật tốt hơn; và triển khai mô hình
+                        đồng quản lý cùng cộng đồng ngư dân địa phương.
+                    </p>
+                    <p>
+                        Để giảm thiểu lượng rác nhựa thải ra đại dương,
+                        chúng tôi đang triển khai mô hình Đô thị Giảm Nhựa
+                        nhằm vận động các đối tác liên ngành với các mục tiêu:
+                    </p>
+                    <ul>
+                        <li>
+                            Các thành phố cam kết loại bỏ rác thải nhựa,
+                            ban hành và thực thi các chính sách mới
+                            để hạn chế các sản phẩm nhựa sử dụng một lần;
+                        </li>
+                        <li>
+                            Doanh nghiệp cắt giảm sử dụng sản phẩm nhựa
+                            trong bộ máy vận hành, thiết lập ra và duy trì
+                            một nền tảng chia sẻ kinh nghiệm hiệu quả
+                            giữa các doanh nghiệp;
+                        </li>
+                        <li>
+                            Trường học triển khai các chương trình giảng dạy
+                            thay đổi hành vi cho học sinh;
+                        </li>
+                        <li>
+                            Cộng đồng địa phương áp dụng các hệ thống thu gom
+                            và phân loại rác.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung05">
+
+    </div>
+    <div class="container-fluid cf2">
+        <div id="vung06">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Nhựa</h1>
+                    <p>
+                        Từ những năm 1950, con người đã sản xuất ra 8.3 tỷ tấn nhựa,
+                        từ đó sinh ra 6.3 tỷ tấn rác thải nhựa.
+                    </p>
+                    <a href="#" class="daiduong"><button>TÌM HIỂU THÊM</button></a>
+                </div>
+                <div class="col-md-6">
+                    <h1>Đánh bắt hải sản</h1>
+                    <p>
+                        Cá ngừ vây vàng của Việt Nam đang mở rộng thị trường
+                        và là nguồn xuất khẩu chủ lực của Việt Nam,
+                        với khoảng 2.000 thuyền đánh bắt cá ngừ vây vàng,
+                        đóng góp vào nền Kinh tế Biển Việt Nam gần
+                        370 triệu đô la.
+                    </p>
+                    <a href="#" class="daiduong"><button>TÌM HIỂU THÊM</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung07">
+        <div class="noidung07">
+            <h1 class="text-right">HÃY HÀNH ĐỘNG</h1>
+            <div class="text-right daiduong">
+                <button> <a href="#" style="color:white;">BẠN CÓ THỂ LÀM GÌ</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="vung08" class="text-center">
+        <img src="images/logo-wwf.png" />
+        <p>
+            <i>
+                Xây dựng một tương lai trong đó con người
+                sống hài hoà với thiên nhiên
+            </i>
+        </p>
+    </div>
+    <div id="ngangduoi">
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+                    <li>Về chúng tôi</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Hoạt động</li>
+                    <li>
+                        <a href="#">Rừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Đại dương</a>
+                    </li>
+                    <li>
+                        <a href="#">Nước ngọt</a>
+                    </li>
+                    <li>
+                        <a href="#">Động vật hoang dã</a>
+                    </li>
+                    <li>
+                        <a href="#">Khí hậu và năng lượng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thực phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Tài chính Bền vững</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tin tức</li>
+                    <li>
+                        <a href="#">Cập nhật mới nhất</a>
+                    </li>
+                    <li>
+                        <a href="#">Ấn phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng kí nhận bản tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tham gia</li>
+                    <li>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li>
+                        <a href="#">Tình nguyện viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Việc làm</a>
+                    </li>
+                    <li>
+                        <a href="#">Panda Labs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <hr />
+        <br />
+        <br />
+        <div id="ngangduoi02" class="text-center">
+
+            <p>
+                © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                về Bảo tồn Thiên nhiên - WWF
+                (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                <a href="#" style="color:grey">Creative Commons license.</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

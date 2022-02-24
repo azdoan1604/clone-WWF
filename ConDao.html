@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Côn Đảo - Nói không với túi ni lông và Hướng đến mục tiêu không rác thải nhựa | WWF</title>
+    <link rel="stylesheet" href="ConDao.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div class="container-fluid">
+        <div id="vung01" class="text-center tuade">
+            <h1>
+                Côn Đảo - Nói không với túi ni lông và Hướng đến mục tiêu
+                không rác thải nhựa
+            </h1>
+        </div>
+        <div class="clearfix"></div>
+        <div id="vung02">
+            <div class="row">
+                <div class="col-md-7">
+                    <span style="font-size:12px; color:grey"><i>Posted on 17 November 2020</i></span>
+                    <p style="font-size: 26px;">
+                        Côn Đảo khởi động Đề án “Côn Đảo - Nói không với túi ni
+                        lông và Hướng đến mục tiêu không rác thải nhựa” nhằm
+                        giảm thiểu sử dụng túi ni lông và các sản phẩm nhựa dùng
+                        một lần này tại huyện đảo này.
+                    </p>
+
+                    <p style="margin-top:40px;">
+                        Côn Đảo, ngày 16 tháng 11 năm 2020, UBND huyện Côn Đảo,
+                        phòng Tài nguyên và Môi trường huyện Côn Đảo cùng Tổ chức Quốc tế về Bảo tồn Thiên nhiên tại Việt Nam (WWF-Việt Nam) chính thức khởi động đề án
+                        “Côn Đảo - Nói không với túi ni lông – Hướng đến mục tiêu không
+                        rác thải nhựa” nhằm giảm thiểu sử dụng túi ni lông và các sản phẩm
+                        nhựa dùng một lần này tại huyện đảo này.
+                    </p>
+                    <p>
+                        Tham gia sự kiện có lãnh đạo phòng Tài nguyên và Môi trường,
+                        Ban Quản lý chợ Côn Đảo, đại diện WWF-Việt Nam, 74 tiểu thương
+                        của chợ Côn Đảo cùng các đơn vị tham gia đề án.
+                    </p>
+                    <p>
+                        Đề án là nỗ lực của UBND huyện Côn Đảo, phòng
+                        Tài nguyên và Môi trường, WWF-Việt Nam cùng các cơ quan
+                        đơn vị địa phương nhằm tuyên truyền nâng cao nhận thức
+                        và hiểu biết của tiểu thương, người dân và du khách về
+                        tác hại của việc sử dụng nhựa dùng một lần, đặc biệt là
+                        túi ni lông với kỳ vọng thay đổi thói quen sử dụng
+                        của người dân, hướng tới giảm thiểu, nói không với
+                        túi ni lông và các sản phẩm nhựa dùng một lần tại Côn Đảo.
+                    </p>
+                    <p>
+                        Theo đó, chuỗi các hoạt động bao gồm hệ thống
+                        bảng tuyên truyền tại khu vực chợ Côn Đảo
+                        với thông điệp “Tôi chọn giảm túi ni lông –
+                        Để Côn Đảo mãi là thiên đường” đã được
+                        triển khai và thu hút sự quan tâm của người dân
+                        và khách du lịch nhiều ngày qua. Bên cạnh đó,
+                        hoạt động ký gửi giỏ xách cho bà con khi đi chợ
+                        cũng sẽ được triển khai nhằm giảm thiểu việc
+                        sử dụng túi ni lông. Cụ thể, người dân và khách
+                        du lịch nếu không có, hoặc quên mang theo túi
+                        đựng cá nhân thì có tới quầy ký gửi để được cấp
+                        giỏ xách đựng đồ thay cho túi ni lông.
+                        Giỏ xách là các loại túi có quai xách,
+                        kích thước lớn, làm bằng nhiều loại chất liệu
+                        khác nhau như: túi vải, túi cói, túi lưới,
+                        túi bạt… phù hợp với nhu cầu mua sắm thường ngày
+                        của bà con.
+                    </p>
+                    <p>
+                        Phát biểu tại sự kiện, ông Phạm Bảo Ân,
+                        trưởng Phòng Tài nguyên Môi trường huyện Côn Đảo
+                        cho biết: <i>
+                            “Tại Côn Đảo chúng ta đang tồn đọng một
+                            khối lượng lớn rác thải chưa được xử lý và bắt đầu
+                            có những ảnh hưởng tiêu cực đối với cảnh quan môi trường.
+                            Do vậy, ngày hôm nay, phòng Tài nguyên và Môi trường
+                            cùng với Ban Quản lý chợ Côn Đảo phát động đề án
+                            Côn Đảo - Nói không với túi ni lông - Hướng đến mục tiêu
+                            không rác thải nhựa”. Với truyền thống thân thiện,
+                            hiền hậu của người dân Côn Đảo, với sự quyết tâm của
+                            lãnh đạo địa phương, sự phối hợp và nỗ lực chặt chẽ
+                            của các cơ quan ban ngành và đặc biệt là sự tiên phong
+                            đi đầu của các cô bác tiểu thương tại chợ Côn Đảo
+                            cùng thực hiện thì chắc chắn sẽ tạo được sự lan toả rộng
+                            rãi đến nhân dân và du khách. Tôi tin tưởng rằng
+                            nếu chúng ta cùng chung tay góp sức, mỗi người một
+                            hành động nhỏ, chúng ta sẽ thành công trong việc
+                            giảm thiểu rác thải nhựa, nói không với túi ni lông
+                            cũng như giữ gìn và bảo vệ môi trường Côn Đảo
+                            ngày càng xanh sạch đẹp.”
+                        </i>
+                    </p>
+                    <p>
+                        Theo kế hoạch, để có được dữ liệu làm cơ sở để triển khai
+                        thực hiện các bước tiếp theo, các thành viên dự án
+                        sẽ thực hiện nhiều khảo sát về hiện trạng sử dụng
+                        túi ni lông và sản phẩm nhựa dùng một lần tại chợ Côn Đảo.
+                        Khảo sát bước đầu sẽ thống kê, rà soát được hiện trạng
+                        sử dụng túi ni lông khó phân huỷ trong sinh hoạt tại
+                        địa điểm này nói riêng và trên địa bàn nói chung,
+                        đánh giá sự ảnh hưởng của rác thải là túi ni lông đối với
+                        môi trường Côn Đảo. Trên cơ sở này, Ban điều hành dự án
+                        đã nghiên cứu kỹ để có thể đưa ra phương án tuyên truyền,
+                        vận động và hỗ trợ bà con hiệu quả.
+                    </p>
+                    <p>
+                        Đại diện WWF-Việt Nam, bà Nguyễn Mỹ Quỳnh, Quản lý dự án
+                        Giảm rác Nhựa Đại dương – Hợp phần Khu Bảo tồn biển,
+                        cho biết:<i>
+                            “Chúng tôi tin rằng từng cá nhân người dân
+                            Côn Đảo đã và sẽ luôn tích cực, tràn đầy năng lượng
+                            trong hoạt động bảo vệ môi trường sống của chính mình.
+                            WWF tin rằng sự ủng hộ và tham gia tích cực của toàn bộ
+                            người dân Côn Đảo, cũng như quyết tâm và nỗ lực của
+                            chính quyền địa phương đóng vai trò quan trọng cho sự
+                            thành công của đề án, tạo tiền đề xây dựng Côn Đảo
+                            trở thành hòn đảo không rác thải nhựa”.
+                        </i>
+                    </p>
+                    <p>
+                        Đề án <i>
+                            “Côn Đảo - Nói không với túi ni lông - Hướng đến
+                            mục tiêu không rác thải nhựa”
+                        </i>dự kiến được triển khai
+                        trong quý 4 năm 2020 và tiếp tục kéo dài trong thời gian
+                        tiếp theo.
+                    </p>
+                    <p>
+                        Côn Đảo là quần đảo lớn của Việt Nam, cách thành phố
+                        <a href="#">Vũng Tàu</a> 97 hải lý theo đường biển, từng được biết
+                        đến là nơi giam giữ và lưu đày tù nhân lớn nhất
+                        Đông Dương trước năm <a href="#">1975</a>. Ngày nay, nơi đây được biết
+                        đến là điểm du lịch nghỉ dưỡng và tham quan với
+                        các bãi tắm và khu bảo tồn thiên nhiên <a href="#">
+                            Vườn quốc gia
+                            Côn Đảo
+                        </a> một trong hai Vườn Quốc gia duy nhất tại
+                        Việt Nam bao gồm cả các phần trên cạn và dưới biển.
+                        Khu vực biển Côn Đảo có thảm cỏ biển rộng khoảng 600ha,
+                        các rặng san hô với diện tích 1.000 ha và là
+                        nơi sinh sống của đồi mồi, rùa xanh, cá heo và dugong,
+                        một loài cực kỳ quý hiếm của cả Việt Nam và thế giới.
+                        Ngoài ra, Côn Đảo còn có các bãi làm tổ quan trọng đối
+                        với rùa biển ở Việt Nam.
+                    </p>
+                    <p>
+                        Do đặc thù nằm giữa biển, Côn Đảo chịu ảnh hưởng nghiêm trọng
+                        từ rác nhựa đại dương, nhất là ở các khu rừng ngập mặn,
+                        các bãi đá. Những năm qua, do lượng khách du lịch tăng nhanh
+                        chóng nên các bãi rác tại huyện cũng gặp phải tình trạng
+                        quá tải. Hiện rác ở Côn Đảo còn tồn đọng khoảng 70.000 tấn.
+                        Do vậy, vấn nạn rác thải nhựa hiện đang là một trong
+                        những vấn đề nhức nhối trong quá trình phát triển kinh tế
+                        và bảo vệ môi trường của chính quyền và người dân.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <div class="anh">
+                        <a data-fancybox="gallery" href="images/condao.jpg"><img src="images/condao.jpg" alt=""></a>
+                    </div>
+                    <p class="text-center">
+                        Tiểu thương viết lời kêu gọi hạn chế dùng
+                        túi ni lông tại sự kiện. Bảng sẽ được đặt
+                        tại quầy bán hàng của tiểu thương tại chợ Côn Đảo.<br />
+                        <span style="font-size:12px"><i>© WWF-Viet Nam</i></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung03" class="text-center">
+            <img src="images/logo-wwf.png" />
+            <p>
+                <i>
+                    Xây dựng một tương lai trong đó con người
+                    sống hài hoà với thiên nhiên
+                </i>
+            </p>
+        </div>
+        <div id="ngangduoi">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul>
+                        <li>Về chúng tôi</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li>Hoạt động</li>
+                        <li>
+                            <a href="#">Rừng</a>
+                        </li>
+                        <li>
+                            <a href="#">Đại dương</a>
+                        </li>
+                        <li>
+                            <a href="#">Nước ngọt</a>
+                        </li>
+                        <li>
+                            <a href="#">Động vật hoang dã</a>
+                        </li>
+                        <li>
+                            <a href="#">Khí hậu và năng lượng</a>
+                        </li>
+                        <li>
+                            <a href="#">Thực phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#">Tài chính Bền vững</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li>Tin tức</li>
+                        <li>
+                            <a href="#">Cập nhật mới nhất</a>
+                        </li>
+                        <li>
+                            <a href="#">Ấn phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#">Đăng kí nhận bản tin</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li>Tham gia</li>
+                        <li>
+                            <a href="#">Đối tác</a>
+                        </li>
+                        <li>
+                            <a href="#">Tình nguyện viên</a>
+                        </li>
+                        <li>
+                            <a href="#">Việc làm</a>
+                        </li>
+                        <li>
+                            <a href="#">Panda Labs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul>
+                        <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <hr />
+            <br />
+            <br />
+            <div id="ngangduoi02" class="text-center">
+
+                <p>
+                    © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                    © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                    về Bảo tồn Thiên nhiên - WWF
+                    (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                    “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                    <a href="#" style="color:grey">Creative Commons license.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

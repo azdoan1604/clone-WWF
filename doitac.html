@@ -1,0 +1,597 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Đối tác | WWF </title>
+    <script src="js/jquery.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="doitac.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div id="vung01">
+        <img src="images/doitac1.jpg" />
+        <div class="noidung01">
+            <h1 style="font-size:50px;">ĐỐI TÁC<hr style="width:40px;background-color:white;height:5px" /></h1>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header" id="menuan">
+        <ul class="list-inline">
+            <li><a href="#"><button class="nut">THAM GIA</button></a></li>
+            <li class="tab" style="height:90px;"><a href="#"><button class="nut">ĐỐI TÁC</button> </a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("menuan");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div class="container-fluid">
+        <div id="vung02">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p>
+                        Môi trường toàn cầu hiện đang phải đối mặt
+                        với những thách thức quá lớn, quá phức tạp
+                        và quá cấp bách, mà không một tổ chức nào
+                        có thể một mình tháo gỡ. Với vai trò cầm lái
+                        nền kinh tế toàn cầu và có tầm ảnh hưởng rộng
+                        lớn, các doanh nghiệp không chỉ có trách nhiệm,
+                        mà còn có sức mạnh cần thiết để bảo đảm sự bền vững
+                        của các hệ sinh thái và các nguồn tài nguyên
+                        thiên nhiên.
+                    </p>
+                    <p>
+                        Vì vậy, WWF không ngừng hợp tác với khối doanh nghiệp
+                        tư nhân để cùng thực hiện nhiều dự án với mục đích
+                        bảo vệ các hệ sinh thái và đẩy mạnh phát triển bền vững
+                        ở Việt Nam. WWF hợp tác với các doanh nghiệp trong
+                        ba mảng chính:
+                    </p>
+                    <ol>
+                        <li>
+                            <b>Thúc đẩy các hoạt động kinh doanh, sản xuất bền vững</b>
+                            <p>
+                                Dưới hình thức hợp tác song phương, chúng tôi làm việc
+                                với các doanh nghiệp để giúp họ thay đổi phương thức
+                                hoạt động và chuỗi cung ứng nhằm đạt được các kết quả
+                                bảo tồn trực tiếp tại các khu vực hoặc lĩnh vực ưu tiên
+                                của tổ chức. Chúng tôi hợp tác với một số công ty lớn
+                                nhất thế giới để giảm những tác động tiêu cực của họ
+                                lên tới môi trường, đạt được các kết quả bảo tồn
+                                mà nếu không có sự tham gia của họ thì sẽ không bao giờ
+                                thành hiện thực, đồng thời tạo ảnh hưởng đến
+                                các thị trường và các ngành liên quan.
+                            </p>
+                        </li>
+                        <li>
+                            <b>Truyền thông và các hoạt động nâng cao nhận thức</b>
+                            <p>
+                                WWF hợp tác với các doanh nghiệp thực hiện
+                                các chiến dịch và hoạt động truyền thông
+                                nhằm nâng cao hiểu biết của công chúng về
+                                các vấn đề môi trường nổi bật, đồng thời
+                                kêu gọi họ thay đổi hành vi vì một môi trường
+                                sống tốt đẹp hơn. Mảng hợp tác này còn nhằm
+                                mục đích tôn vinh vẻ đẹp và sự quý giá của
+                                những vùng và loài mà WWF đang cố gắng bảo vệ.
+                                Ví dụ như kêu gọi người tiêu dùng thay đổi
+                                nhu cầu mua sắm, hướng tới sử dụng những sản phẩm
+                                được sản xuất bền vững như hải sản có chứng chỉ MSC®
+                                hoặc kêu gọi sự ủng hộ của các công ty đối với
+                                các loài nguy cấp như hổ hoặc khu vực Trung Trường Sơn.
+                            </p>
+                        </li>
+                        <li>
+                            <b>Hoạt động gây quỹ</b>
+                            <p>
+                                Cách tiếp cận thứ ba của chúng tôi là các
+                                chương trình hợp tác riêng biệt với các công ty
+                                với mục đích gây quỹ cho các dự án bảo tồn và
+                                cho các tổ chức thực hiện những dự án đó.
+                                Các chương trình này giúp huy động vốn cho
+                                hoạt động bảo tồn loài và khu vực trọng yếu,
+                                cũng như cho việc xây dựng năng lực và phát triển
+                                các công cụ cần thiết để đạt được các kết quả
+                                bảo tồn.
+                            </p>
+                        </li>
+                    </ol>
+                    <p>Các bạn có thể tìm hiểu thêm về những dự án đã được triển khai sau đây:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung03">
+        <iframe src="https://www.youtube.com/embed/7FD_dYBYmMI" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <div class="container-fluid cf2">
+        <div id="vung04">
+            <div class="row">
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/baotonvaquanly.jpg" />
+                </div>
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> HSBC </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        BẢO TỒN VÀ QUẢN LÝ TÀI NGUYÊN NƯỚC
+                        VỚI SỰ THAM GIA CỦA CỘNG ĐỒNG
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Tiếp tục mối quan hệ hợp tác lâu dài,
+                        WWF-Việt Nam và ngân hàng HSBC cùng triển khai
+                        một dự án kéo dài nhiều năm về tài nguyên nước,
+                        tập trung vào việc bảo vệ hệ sinh thái nhằm
+                        hỗ trợ phát triển du lịch sinh thái và cải thiện
+                        sinh kế cho cộng đồng địa phương. Tại Vườn Quốc gia
+                        Tràm Chim thuộc khu vực Đồng bằng sông Cửu Long
+                        và Lưu vực sông Vu Gia – Thu Bồn, dự án đang được
+                        triển khai nhắm tới cải thiện lưu vực sông với mục tiêu:
+                        <i>
+                            Các cộng đồng tại các khu vực nước ngọt trọng yếu
+                            được tham gia vào công tác bảo tồn nước ngọt thông qua
+                            giáo dục, khoa học cộng đồng và cải tiến cơ chế quản lý,
+                            gia tăng lợi ích về môi trường, kinh tế và xã hội.
+                        </i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung05">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> Prudential </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        XÂY DỰNG CÁC CỘNG ĐỒNG KHÔNG RÁC THẢI NHỰA
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Nhằm thúc đẩy mạnh mẽ những nỗ lực giảm
+                        rác thải nhựa, WWF-Việt Nam và Công ty
+                        TNHH Prudential tại Anh và Việt Nam đã
+                        triển khai chương trình hợp tác nhiều
+                        năm về giảm rác thải nhựa tại Việt Nam.
+                        Sáng kiến này sử dụng cách tiếp cận lấy
+                        sự tham gia trực tiếp của các cá nhân
+                        làm nền tảng chia sẻ hoạt động. WWF-Việt Nam
+                        và Prudential đã liên kết với trường học,
+                        doanh nghiệp và cộng đồng, thực hiện
+                        các chương trình giáo dục về môi trường,
+                        các chiến dịch truyền thông trực tiếp
+                        và trực tuyến. Dự án cũng phối hợp
+                        với các cơ quan truyền thông đại chúng
+                        để nâng cao nhận thức và thay đổi hành vi,
+                        kết hợp với một Diễn đàn Doanh nghiệp Xanh
+                        để chia sẻ các kinh nghiệm hiệu quả với
+                        khối doanh nghiệp.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/xaydung.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="vung06">
+            <div class="row">
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/baotonnuocngot.jpg" />
+                </div>
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> Tetra Pak </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        BẢO TỒN NƯỚC NGỌT VÀ TIẾP CẬN
+                        NƯỚC UỐNG CHO CÁC TRƯỜNG HỌC
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Cùng với Tetra Pak, WWF-Việt Nam đã
+                        khởi động dự án cung cấp nước uống
+                        cho hơn 10,000 sinh viên và giáo viên
+                        tại hơn 29 trường mầm non và trường học
+                        nằm trong vùng đệm của Vườn Quốc gia
+                        Tràm Chim. Bên cạnh các hoạt động kỹ thuật,
+                        bao gồm lắp đặt các thiết bị cần thiết
+                        và tập huấn cách sử dụng và bảo trì,
+                        dự án còn nâng cao nhận thức cho các
+                        sinh viên và giáo viên địa phương về
+                        bảo tồn thiên nhiên, qua đó giúp họ
+                        hiểu được giá trị của tài nguyên thiên nhiên
+                        thuộc Vườn Quốc gia cũng như cách thức
+                        bảo vệ các nguồn tài nguyên đó.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung07">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p>
+                        <i style="color:#dd681b">Intel & Tetra Park </i>
+                        <span class="kengang"></span>
+                    </p>
+                    <h1 class="font45">
+                        KHÔI PHỤC ĐẤT NGẬP NƯỚC LÁNG SEN
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Những thay đổi nhanh chóng về khí hậu
+                        diễn ra gần đây như nhiệt độ và lượng mưa,
+                        cũng như các chế độ thủy văn của sông Cửu Long
+                        , đã dẫn đến tình trạng phá rừng nghiêm trọng
+                        tại khu bảo tồn đất ngập nước Láng Sen.
+                        WWF hợp tác với Intel Việt Nam và Tetra Pak
+                        Việt Nam triển khai dự án phục hồi các
+                        khu rừng bị suy thoái, bảo vệ môi trường
+                        sống cho động vật hoang dã và đảm bảo sinh
+                        kế cho những người dân địa phương có cuộc sống
+                        phụ thuộc vào hệ sinh thái của khu vực này.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/khoiphuc.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="vung08">
+            <div class="row">
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/baotondatngapnuoc.jpg" />
+                </div>
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> Coca Cola </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        BẢO TỒN ĐẤT NGẬP NƯỚC TRÀM CHIM
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        WWF hợp tác cùng Coca Cola - một đối tác
+                        đặc biệt quan tâm đến vấn đề bảo tồn
+                        nước ngọt trong tự nhiên, triển khai dự án
+                        bảo tồn đất ngập nước tại Vườn Quốc gia
+                        Tràm Chim ở khu vực Đồng bằng sông Cửu Long.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung09">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> HSBC </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        BẢO VỆ SAO LA Ở QUẢNG NAM & THỪA THIÊN HUẾ
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Sao la, một trong những loài được xếp hạng
+                        cực kỳ nguy cấp, đang đứng trước nguy cơ
+                        tuyệt chủng cao hơn rất nhiều loài động vật
+                        có vú lớn khác ở châu Á. Dự án Dự trữ Các-bon
+                        và Bảo tồn Đa dạng Sinh học (CarBi) của WWF,
+                        được hỗ trợ một phần bởi Ngân hàng HSBC (Việt Nam),
+                        đang tiếp tục tăng cường bảo vệ loài này bằng cách
+                        đẩy mạnh hoạt động tuần tra và tháo gỡ bẫy trong
+                        các khu vực bảo tồn, áp dụng mô hình Bảo vệ Rừng
+                        có sự tham gia của cộng đồng địa phương.
+                        Chương trình CarBi II đang được WWF triển khai
+                        với sự hỗ trợ của Ngân hàng Tái thiết Đức KfW.
+                        Dự án là một phần của Sáng kiến Khí hậu Quốc tế (IKI).
+                        Bộ Môi trường, Bảo tồn Thiên nhiên và An toàn
+                        Hạt nhân Liên Bang (BMU) ủng hộ sáng kiến này
+                        dựa trên cơ sở đồng thuận của Quốc hội Liên bang Đức.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/baovesaola.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="vung010">
+            <div class="row">
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/sangkienbaotonvoiquocgia.jpg" />
+                </div>
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> IIB </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        SÁNG KIẾN BẢO TỒN VOI QUỐC GIA
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        WWF đang hỗ trợ Việt Nam bảo tồn loài voi
+                        châu Á trong tự nhiên thông qua sáng kiến
+                        được tài trợ bởi Ngân hàng Đầu tư
+                        Quốc tế (IIB). Sáng kiến này hướng tới:
+                        (1) Nâng cao năng lực cho cơ quan chức năng
+                        có liên quan về quản lý xung đột giữa người và voi, và
+                        (2) Tăng cường sự tham gia của cộng đồng và doanh nghiệp
+                        Việt Nam trong việc bảo tồn voi châu Á.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung011">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-md-offset-1">
+                    <p><i style="color:#dd681b"> Microsoft </i><span class="kengang"></span> </p>
+                    <h1 class="font45">
+                        PHỤC HỒI RỪNG NGẬP MẶN TẠI THỪA THIÊN HUẾ
+                    </h1>
+                    <span class="kengang" style="width:100%"></span>
+                    <p>
+                        Một dự án hợp tác kéo dài hai năm do
+                        Microsoft và WWF-Việt Nam thực hiện đã
+                        mang lại những thay đổi tích cực cho
+                        thiên nhiên và sinh kế của người dân sống
+                        trong khu vực đầm phá ven bờ biển tại
+                        Thừa Thiên Huế. Dự án đã trồng hơn 23.000 cây
+                        đước, tập huấn và giúp cho 400 hộ gia đình
+                        áp dụng phương pháp nuôi trồng thủy sản
+                        sinh thái. Hiện nay, người dân nơi đây
+                        đã có những mùa vụ ổn định hơn cũng như
+                        cải thiện thu nhập và cuộc sống.
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-7">
+                    <img src="images/phuchoirungngapman.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung03">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <h2>Nhận bản tin của WWF-Việt Nam</h2>
+                <p style="font-size:16px;">
+                    Đăng ký nhận bản tin để được cập nhật về
+                    những hoạt động mới nhất của WWF-Việt Nam
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                <img src="images/cungnhau.jpg" style="width:100%" />
+            </div>
+            <div class="col-md-5" style="padding-top:15px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control fc" id="usr" placeholder="Tên">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control fc" id="usr" placeholder="Họ">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control fc" id="usr" placeholder="Địa chỉ email">
+                </div>
+                <div>
+                    <a href="#">
+                        <button class="btn-lg btn btn-block" style="color:grey;">
+                            Đăng kí
+                            <span>
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung12" class="text-center">
+        <img src="images/logo-wwf.png" class="center-block" />
+        <p>
+            <i>
+                Xây dựng một tương lai trong đó con người
+                sống hài hoà với thiên nhiên
+            </i>
+        </p>
+    </div>
+    <div id="ngangduoi">
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+                    <li>Về chúng tôi</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Hoạt động</li>
+                    <li>
+                        <a href="#">Rừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Đại dương</a>
+                    </li>
+                    <li>
+                        <a href="#">Nước ngọt</a>
+                    </li>
+                    <li>
+                        <a href="#">Động vật hoang dã</a>
+                    </li>
+                    <li>
+                        <a href="#">Khí hậu và năng lượng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thực phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Tài chính Bền vững</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tin tức</li>
+                    <li>
+                        <a href="#">Cập nhật mới nhất</a>
+                    </li>
+                    <li>
+                        <a href="#">Ấn phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng kí nhận bản tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tham gia</li>
+                    <li>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li>
+                        <a href="#">Tình nguyện viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Việc làm</a>
+                    </li>
+                    <li>
+                        <a href="#">Panda Labs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <hr />
+        <br />
+        <br />
+        <div id="ngangduoi02" class="text-center">
+
+            <p>
+                © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                về Bảo tồn Thiên nhiên - WWF
+                (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                <a href="#" style="color:grey">Creative Commons license.</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,577 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Panda Labs | WWF </title>
+    <script src="js/jquery.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="pandalabscss.css" rel="stylesheet" />
+    <script src="js/jssor.slider-28.0.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div id="vung01">
+        <img src="images/pandalabs.jpg" />
+        <div class="noidung01">
+            <h1 style="font-size:50px;">PANDA LABS VIỆT NAM<hr style="width:40px;background-color:white;height:5px" /></h1>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header" id="menuan">
+        <ul class="list-inline">
+            <li><a href="#"><button class="nut">THAM GIA</button></a></li>
+            <li class="tab" style="height:90px;"><a href="#"><button class="nut">PANDA LABS</button> </a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("menuan");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div class="container-fluid cf2">
+        <div id="vung02" class="text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 style="color:#dd681b">
+                        Panda Labs là một chương trình toàn cầu thúc đẩy
+                        và hiện thực hoá các sáng kiến nhằm giải quyết
+                        những vấn đề môi trường cấp bách nhất, thông qua
+                        thử nghiệm cách tiếp cận lấy con người làm trung tâm
+                        và kết hợp với công nghệ, hợp tác và tài chính.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div id="vung03" class="text-center">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>
+                        Cách tiếp cận
+                    </h1>
+                    <p style="text-align:center;">
+                        <span style="font-size:20px">
+                            Những vấn đề phức tạp cũng đưa lại những cơ hội lớn.
+                            Chúng tôi sẽ chấp nhận những rủi ro để thử nghiệm
+                            những ý tưởng và cách tiếp cận mới, mở rộng hợp tác
+                            với các đồng minh để giải quyết vấn đề.
+                        </span>
+                        <img src="images/panda_lab_approaches_vn_01.png" />
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div id="vung04">
+            <h1 style="font-size:35px" class="text-center">
+                Thử thách Moonshot Việt Nam 2020: Rác Thải Nhựa
+            </h1>
+        </div>
+    </div>
+    <div id="vung05">
+
+    </div>
+    <div class="container-fluid cf2">
+        <div id="vung06">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <p class="font20">
+                        Năm 2020, Panda Labs Việt Nam cùng với <a href="#" class="font-cam">
+                            Chương trình
+                            Đại dương của WWF-Việt Nam
+                        </a> chung tay thực hiện thử thách
+                        Moonshot của năm: <a href="#" class="font-cam">Rác thải Nhựa</a>. Rác thải nhựa/ quản lý
+                        rác thải cần sự chung tay của tất cả mọi người,
+                        trong mọi ngành nghề, cấp độ, lĩnh vực, địa phương,
+                        tổ chức, doanh nghiệp, cũng như cộng đồng và mỗi người
+                        dân. Họ chính là những nhân tố tích cực, cùng với sự
+                        hỗ trợ của hệ thống chính trị, sẽ tham gia vào quá trình
+                        thử nghiệm các giải pháp, chia sẻ và hợp tác với các
+                        tổ chức quốc tế, các quốc gia khác trong khu vực và
+                        toàn thế giới.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="vung07">
+            <div class="text-center vung0701">
+                <h1>DỰ ÁN CỦA CHÚNG TÔI</h1>
+                <span><hr style="width:40px;background-color:#dd681b;height:5px" /></span>
+            </div>
+            <div class="vung0702">
+                <ul class="list-inline text-center">
+                    <li class="tab font16"><a href="#"><button class="nut">CUỘC THI "SÁNG KIẾN GIẢM RÁC THẢI NHỰA"</button> </a></li>
+                    <li class="font16"><a href="#"><button class="nut">ĐÀO TẠO TƯ DUY THIẾT KẾ</button></a></li>
+                    <li class="font16"><a href="#"><button class="nut">LITTERATI</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="vung08">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/cuocthisangkien.jpg" />
+            </div>
+            <div class="col-md-9">
+                <p class="font13">
+                    Với mong muốn đạt được mục tiêu không
+                    có rác thải nhựa trong tự nhiên vào năm 2030
+                    trên toàn thế giới, WWF đã tổ chức
+                    Cuộc thi "<a href="#" class="font-cam">Sáng kiến Giảm Rác thải Nhựa</a>"
+                    để tìm ra các mô hình và ý tưởng khả thi
+                    nhằm tăng tỷ lệ hiệu quả quản lý, xử lý và
+                    tái chế rác thải nhựa và kêu gọi tiết giảm
+                    sử dụng các đồ vật nhựa dùng một lần.
+                </p>
+                <p class="font13">
+                    Cuộc thi là một sân chơi chuyên nghiệp,
+                    nơi những người trẻ nhiệt huyết thể hiện
+                    sự thông minh, tài năng và sáng tạo.
+                    Đây cũng là cơ hội để các bạn trẻ học hỏi,
+                    trải nghiệm, kết nối với các chuyên gia
+                    trong lĩnh vực quản lý / xử lý chất thải
+                    và quản lý kinh doanh.
+                </p>
+                <p class="font13">
+                    Panda Labs - Chương trình Đổi mới của WWF
+                    cũng tham gia vào cuộc thi này với vai trò
+                    hỗ trợ kỹ thuật. Panda Labs sẽ cung cấp
+                    những kỹ năng và kiến thức chuyên môn cho người
+                    tham gia với mong muốn thúc đẩy các sáng kiến
+                    cộng đồng trong việc xử lý các vấn đề môi trường.
+                </p>
+                <p class="font13">
+                    Bạn có cảm thấy hứng thú không?
+                    Vậy còn chờ gì nữa mà không tham gia với chúng tôi?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid cf2">
+        <div id="vung09">
+            <div class="text-center">
+                <h1>ẤN PHẨM CỦA CHÚNG TÔI</h1>
+                <span><hr style="width:40px;background-color:#dd681b;height:5px" /></span>
+            </div>
+
+            <div class="vung0901">
+                <a href="#" download>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <i class="glyphicon glyphicon-download-alt"></i>
+                            Can Technology Save the Planet?
+                            <p class="fontgrey">PDF 4.19MB</p>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="glyphicon glyphicon-download"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="vung0902">
+                <a href="#" download>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <i class="glyphicon glyphicon-download-alt"></i>
+                            Panda Labs Impact Report 2020
+                            <p class="fontgrey">PDF 2.40MB</p>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="glyphicon glyphicon-download"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="vung0903">
+                <a href="#" download>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <i class="glyphicon glyphicon-download-alt"></i>
+                            Business Model Innovation for Sustainability
+                            <p class="fontgrey">PDF 1.86MB</p>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="glyphicon glyphicon-download"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="vung0904">
+                <a href="#" download>
+                    <div class="row">
+                        <div class="col-md-11">
+                            <i class="glyphicon glyphicon-download-alt"></i>
+                            Panda Labs Viet Nam 2 pagers
+                            <p class="fontgrey">PDF 3.64MB</p>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="glyphicon glyphicon-download"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="vung10">
+        <div id="vung1001">
+            <div class="text-center">
+                <h1>HÌNH ẢNH HOẠT ĐỘNG</h1>
+                <span><hr style="width:40px;background-color:#dd681b;height:5px" /></span>
+            </div>
+            <br />
+            <script type="text/javascript">
+                window.jssor_1_slider_init = function () {
+
+                    var jssor_1_SlideshowTransitions = [
+                        { $Duration: 800, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+                        { $Duration: 800, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
+                    ];
+
+                    var jssor_1_options = {
+                        $AutoPlay: 1,
+                        $SlideshowOptions: {
+                            $Class: $JssorSlideshowRunner$,
+                            $Transitions: jssor_1_SlideshowTransitions,
+                            $TransitionsOrder: 1
+                        },
+                        $ArrowNavigatorOptions: {
+                            $Class: $JssorArrowNavigator$
+                        },
+                        $ThumbnailNavigatorOptions: {
+                            $Class: $JssorThumbnailNavigator$,
+                            $Orientation: 2,
+                            $NoDrag: true
+                        }
+                    };
+
+                    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                    /*#region responsive code begin*/
+
+                    var MAX_WIDTH = 980;
+
+                    function ScaleSlider() {
+                        var containerElement = jssor_1_slider.$Elmt.parentNode;
+                        var containerWidth = containerElement.clientWidth;
+
+                        if (containerWidth) {
+
+                            var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                            jssor_1_slider.$ScaleWidth(expectedWidth);
+                        }
+                        else {
+                            window.setTimeout(ScaleSlider, 30);
+                        }
+                    }
+
+                    ScaleSlider();
+
+                    $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                    $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                    $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                    /*#endregion responsive code end*/
+                };
+            </script>
+            <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:580px;height:380px;overflow:hidden;visibility:hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                    <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+                </div>
+                <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:580px;height:380px;overflow:hidden;">
+                    <div>
+                        <img data-u="image" src="images/pandalabs1.jpg" />
+                        <div u="thumb">
+                            Sinh viên thực hành "bản đồ thấu cảm" trong khóa đào tạo
+                        </div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="images/pandalabs2.jpg" />
+                        <div u="thumb">
+                            Sinh viên Đại học Xây dựng tham gia vào khóa đào tạo
+                            Tư duy thiết kế
+                        </div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="images/pandalabs3.jpg" />
+                        <div u="thumb">
+                            Sinh viên Đại học Xây dựng tham gia vào khóa đào tạo
+                            Tư duy thiết kế
+                        </div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="images/pandalabs4.jpg" />
+                        <div u="thumb">
+                            Sinh viên xây dựng mô hình
+                        </div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="images/pandalabs5.jpg" />
+                        <div u="thumb">
+                            Sinh viên xây dựng mô hình
+                        </div>
+                    </div>
+                    <div>
+                        <img data-u="image" src="images/pandalabs6.jpg" />
+                        <div u="thumb">
+                            Sinh viên thử nghiệm mô hình robot hút rác
+                        </div>
+                    </div>
+
+                </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+                <!-- Thumbnail Navigator -->
+                <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+                    <div u="slides">
+                        <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+                            <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Arrow Navigator -->
+                <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+                    </svg>
+                </div>
+                <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+                    </svg>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jssor_1_slider_init();
+            </script>
+        </div>
+    </div>
+    <div class="container-fluid cf2">
+        <div id="vung11">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/panda_labs_logo_740683.png" />
+                </div>
+                <div class="col-sm-6">
+                    <h1>
+                        Bạn muốn hợp tác cùng chúng tôi?
+                    </h1>
+                    <br />
+                    <br />
+                    <p>
+                        <b>Vui lòng gửi email tới:</b><br />
+                        Lưu Quỳnh Anh<br />
+                        Điều phối viên chương trình Đổi mới sáng tạo Panda Labs Việt Nam<br />
+                        E: <a href="#" class="font-cam">anh.luuquynh@wwf.org.vn</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="vung12" class="text-center">
+        <img src="images/logo-wwf.png" />
+        <p>
+            <i>
+                Xây dựng một tương lai trong đó con người
+                sống hài hoà với thiên nhiên
+            </i>
+        </p>
+    </div>
+    <div id="ngangduoi">
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+                    <li>Về chúng tôi</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Hoạt động</li>
+                    <li>
+                        <a href="#">Rừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Đại dương</a>
+                    </li>
+                    <li>
+                        <a href="#">Nước ngọt</a>
+                    </li>
+                    <li>
+                        <a href="#">Động vật hoang dã</a>
+                    </li>
+                    <li>
+                        <a href="#">Khí hậu và năng lượng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thực phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Tài chính Bền vững</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tin tức</li>
+                    <li>
+                        <a href="#">Cập nhật mới nhất</a>
+                    </li>
+                    <li>
+                        <a href="#">Ấn phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng kí nhận bản tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tham gia</li>
+                    <li>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li>
+                        <a href="#">Tình nguyện viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Việc làm</a>
+                    </li>
+                    <li>
+                        <a href="#">Panda Labs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <hr />
+        <br />
+        <br />
+        <div id="ngangduoi02" class="text-center">
+
+            <p>
+                © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                về Bảo tồn Thiên nhiên - WWF
+                (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                <a href="#" style="color:grey">Creative Commons license.</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Hãy hành động | WWF</title>
+    <link rel="stylesheet" href="hayhanhdong.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div id="vung01">
+        <img src="images/hayhanhdongconvoi.jpg" />
+        <div class="noidung01">
+            <h1 style="font-size:40px;">HÃY HÀNH ĐỘNG NGAY BÂY GIỜ!<hr style="width:40px;background-color:white;height:5px" /></h1>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header" id="menuan">
+        <ul class="list-inline">
+            <li class="tab" style="height:90px;"><a href="#"><button class="nut">HÃY HÀNH ĐỘNG</button> </a></li>
+            <li><a href="#"><button class="nut">GIỜ TRÁI ĐẤT</button></a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("menuan");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div class="container">
+        <div id="vung02" class="text-center">
+            <h1>
+                CÓ RẤT NHIỀU CÁCH BẠN CÓ THỂ HÀNH ĐỘNG
+                <hr style="width: 40px; height: 5px; background-color:#dd681b;" />
+            </h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail hanhdong">
+                        <img src="images/doitac.jpg" />
+                        <div class="caption text-center vung2" style="color:white">ĐỐI TÁC</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail hanhdong">
+                        <img src="images/tinhnguyenvien.jpg" />
+                        <div class="caption text-center vung2" style="color:white">TÌNH NGUYỆN VIÊN</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail hanhdong">
+                        <img src="images/hayhanhdonglienhe.jpg" />
+                        <div class="caption text-center vung2" style="color:white">LIÊN HỆ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="vung03">
+            <p>
+                Hàng năm, vào thứ 7 cuối cùng của tháng 3, hàng triệu người trên thế giới cùng hưởng ứng
+                Giờ Trái Đất thông qua một hành động mang tính biểu tượng: tắt đèn trong một tiếng từ
+                8.30-9.30 tối. Hành động nhỏ nhưng mang lại nhiều ý nghĩa lớn. Đó là biểu tượng của sự
+                đồng lòng. Đó là biểu tượng của niềm hy vọng. Đó là biểu tượng của sức mạnh mà chúng ta
+                có được khi cùng nhau hành động vì thiên nhiên. <br />
+                <br />
+                Các cá nhân, doanh nghiệp và các thành phố thuộc 188 quốc gia và vùng lãnh thổ trên thế
+                giới đã tham gia Giờ Trái Đất năm 2019 để cất lên tiếng nói và truyền cảm hứng hành động
+                vì môi trường. Khi Giờ Trái Đất đi qua các múi giờ, hàng nghìn công trình mang tính biểu
+                tượng đã đồng loạt tắt đèn vì trái đất. Trong chiến dịch môi trường lớn nhất thế giới này,
+                những từ khóa như #EarthHour, #Connect2Earth đã tạo nên một làn sóng trên khắp 26
+                quốc gia và hơn 2 tỷ lượt tiếp cận thể hiện sự quan tâm rất lớn đến môi trường. Những cam
+                kết cá nhân cho việc bảo vệ hành tinh đã trở thành một lời kêu gọi mạnh mẽ đến các nhà
+                lãnh đạo thế giới nhằm nâng cao tầm quan trọng của vấn đề bảo tồn thiên nhiên trong
+                chương trình nghị sự toàn cầu.
+                Các bạn có thể tìm hiểu thêm về Giờ Trái Đất ở đây: <a href="#" style="color:#dd681b">https://vietnam.panda.org/act_now__vn/earth_hour/</a>
+            </p>
+        </div>
+    </div>
+    <div id="vung04">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/B2-fw8eMXDA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <div id="vung05" class="text-center">
+        <img src="images/logo-wwf.png" />
+        <p>
+            <i>
+                Xây dựng một tương lai trong đó con người
+                sống hài hoà với thiên nhiên
+            </i>
+        </p>
+    </div>
+    <div id="ngangduoi">
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+                    <li>Về chúng tôi</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Hoạt động</li>
+                    <li>
+                        <a href="#">Rừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Đại dương</a>
+                    </li>
+                    <li>
+                        <a href="#">Nước ngọt</a>
+                    </li>
+                    <li>
+                        <a href="#">Động vật hoang dã</a>
+                    </li>
+                    <li>
+                        <a href="#">Khí hậu và năng lượng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thực phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Tài chính Bền vững</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tin tức</li>
+                    <li>
+                        <a href="#">Cập nhật mới nhất</a>
+                    </li>
+                    <li>
+                        <a href="#">Ấn phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng kí nhận bản tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tham gia</li>
+                    <li>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li>
+                        <a href="#">Tình nguyện viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Việc làm</a>
+                    </li>
+                    <li>
+                        <a href="#">Panda Labs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <hr />
+        <br />
+        <br />
+        <div id="ngangduoi02" class="text-center">
+
+            <p>
+                © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                về Bảo tồn Thiên nhiên - WWF
+                (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                <a href="#" style="color:grey">Creative Commons license.</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

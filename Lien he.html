@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Liên hệ | WWF </title>
+    <script src="js/jquery.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="lienhe.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div id="ngangtren">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="WWF.html"><img src="images/logo-wwf.png" height="80px" /></a>
+                        </div>
+                    </li>
+                    <li class="active"><a href="WWF.html" style="color:black">VỀ CHÚNG TÔI</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">HOẠT ĐỘNG<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="DaiDuong.html">Rừng</a></li>
+                            <li><a href="DaiDuong.html">Đại Dương</a></li>
+                            <li><a href="DaiDuong.html">Nước ngọt</a></li>
+                            <li><a href="DaiDuong.html">Động vật hoang dã</a></li>
+                            <li><a href="DaiDuong.html">Khí hậu và năng lượng</a></li>
+                            <li><a href="DaiDuong.html">Thực phẩm</a></li>
+                            <li><a href="DaiDuong.html">Tài chính bền vững</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">TIN TỨC <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Capnhatmoinhat.html">Cập nhật mới nhất</a></li>
+                            <li><a href="Capnhatmoinhat.html">Ấn phẩm</a></li>
+                            <li><a href="dangkinhanbantin.html">Đăng kí nhận bản tin</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black">THAM GIA<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="doitac.html">Đối tác</a></li>
+                            <li><a href="tinhnguyenvien.html">Tình nguyện viên</a></li>
+                            <li><a href="Capnhatmoinhat.html">Việc làm</a></li>
+                            <li><a href="pandalabs.html">Panda Labs</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#" style="color:black">ENGLISH <span style="font-size:14px">GB</span></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+
+                        <a href="hayhanhdong.html" style="background-color: #f38e43; color:white">HÃY HÀNH ĐỘNG!</a>
+                    </li>
+                    <li>
+                        <a href="Lien he.html" style="background-color: #dd681b; color:white">LIÊN HỆ</a>
+                    </li>
+                </ul>
+                <div class="navbar-form navbar-right">
+                    <div class="dropdown navbar-form navbar-right">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:black;">VI <i class="glyphicon glyphicon-globe"></i><span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="paddingbottom">
+                                <div class="form-group">
+                                    <label for="usr">COUNTRY</label><br />
+                                    <input type="text" class="form-control" id="usr" style="width:415px; height:60px">
+                                </div>
+                            </li>
+                            <li class="paddingbottom">
+                                <label for="language">LANGUAGE</label><br />
+                                <label class="radio-inline"><input type="radio" name="optradio" id="language" style="height:20px;">English</label>
+                                <label class="radio-inline"><input type="radio" name="optradio" checked>Tiếng Việt</label>
+                            </li>
+                            <li>
+                                <a href="#" style="background-color: #f38e43; color:white" class="text-center">CONFIRM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <form class="navbar-form navbar-right">
+
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="glyphicon glyphicon-search" id="timkiem" onclick="openNav()" style="width:50px; height:30px"></i></span>
+                    </form>
+                    <div id="myNav" class="overlay">
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <input type="text" class="form-control" placeholder="Search " name="search" style="width:90%; height:50px;margin-top:30px;margin-left:50px;">
+                        </div>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100px";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+    <div id="vung01">
+        <img src="images/lienhe.jpg" />
+        <div class="noidung01">
+            <h1 style="font-size:50px;">Liên hệ<hr style="width:40px;background-color:white;height:5px" /></h1>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header" id="menuan">
+        <ul class="list-inline">
+            <li class="tab" style="height:90px;"><a href="#"><button class="nut">LIÊN HỆ</button> </a></li>
+        </ul>
+    </div>
+    <script>
+        window.onscroll = function () { myFunction() };
+        var header = document.getElementById("menuan");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+    <div id="vung02" class="text-center">
+        <div class="giamdocquocgia">
+            <h4>TS. VĂN NGỌC THỊNH</h4>
+            <p class="chucvu"><i>Giám đốc Quốc gia</i></p>
+            <p>Tel: 84 24 37193049 ML: 110</p>
+            <p>Email: thinh.vanngoc@wwf.org.vn</p>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-4">
+                <h4>TS. BENJAMIN RAWSON</h4>
+                <p class="chucvu"><i>Giám đốc Bảo tồn và Phát triển Chương trình</i></p>
+                <p>Tel: 84 24 37193049 MLt: 143</p>
+                <p>Email: ben.rawson@wwf.org.vn</p>
+            </div>
+            <div class="col-md-4">
+                <h4>NGUYỄN THANH NGA</h4>
+                <p class="chucvu"><i>Giám đốc Chương trình Hợp tác Doanh nghiệp</i></p>
+                <p>Tel: +84 28 39321873 ML: 109</p>
+                <p>Email: nga.nguyenthanh@wwf.org.vn</p>
+            </div>
+            <div class="col-md-4">
+                <h4>DENISE STILLEY</h4>
+                <p class="chucvu"><i>Trưởng phòng Truyền thông</i></p>
+                <p>Tel: +84 24 37193049</p>
+                <p>Email: denise.stilley@wwf.org.vn</p>
+            </div>
+        </div>
+    </div>
+    <div id="vung03" class="text-center">
+        <div class="tel">
+            <h3>Tel: +84 243 719 3049</h3>
+            <h3>Email: wwfvietnam@wwf.org.vn</h3>
+        </div>
+        <div class="diachi">
+            <h4>Hà Nội</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                Số 6 Ngõ 18 Nguyễn Cơ Thạch,<br />
+                Mỹ Đình, Nam Từ Liêm,<br />
+                Hà Nội
+            </p>
+            <p>
+                <u>Tel</u>: +84 243 719 3049<br />
+                <u>Fax</u>: +84 243 7193048
+            </p>
+            <h4>Tp.Hồ Chí Minh</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                Tòa nhà văn phòng Hoàng Anh Safomec,<br />
+                lầu 6, số 7/1, đường Thành Thái, phường 14,<br />
+                quận 10, TP. HCM
+            </p>
+            <p>
+                <u>Tel</u>: +84 283 9321874<br />
+                <u>Fax</u>: +84 283 9321874
+            </p>
+            <h4>Huế</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                150 Trương Gia Mô., TP. Huế<br />
+                Thừa Thiên Huế
+            </p>
+            <p>
+                <u>Tel</u>: +84 234 3887341<br />
+                <u>Fax</u>: +84 234 3887323
+            </p>
+            <h4>Quảng Nam</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                771 Phan Chu Trinh,<br />
+                Tam Kỳ, Quảng Nam
+            </p>
+            <p>
+                <u>Tel & Fax</u>: +84 235 3810735
+            </p>
+            <h4>Cần Thơ</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                Tầng 2, Khoa Môi trường và Tài nguyên Thiên nhiên, Khu II,<br />
+                Đại học Cần Thơ, Đường 3/2, Quận Ninh Kiều, Tp. Cần Thơ
+            </p>
+            <p>
+                <u>Tel & Fax</u>: +84 292 3872123
+            </p>
+            <h4>Yok Don</h4>
+            <p style="padding-top:10px; padding-bottom:10px"><u>Địa chỉ</u></p>
+            <p>
+                Xã Krongna, Buôn Đôn, Đắk Lắk
+            </p>
+            <p>
+                <u>Tel & Fax</u>: +84 935900188
+            </p>
+        </div>
+    </div>
+    <div id="vung04">
+        <h1 class="text-center">TÌM HIỂU THÊM</h1>
+        <hr style="width:30px; height:5px; background-color:#dd681b" />
+        <div class="text-center">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#">
+                        <i class="fa fa-facebook-square" style="font-size:45px;"></i>
+                        <div class="caption">FACEBOOK</div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <i class="fa fa-youtube-play" style="font-size:45px;"></i>
+                        <div class="caption">YOUTUBE</div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">
+                        <i class="fa fa-linkedin-square" style="font-size:45px;"></i>
+                        <div class="caption">LINKEDIN</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="vung0401" class="text-center">
+            <img src="images/logo-wwf.png" />
+            <p>
+                <i>
+                    Xây dựng một tương lai trong đó con người
+                    sống hài hoà với thiên nhiên
+                </i>
+            </p>
+        </div>
+    </div>
+    <div id="ngangduoi">
+        <div class="row">
+            <div class="col-md-2">
+                <ul>
+                    <li>Về chúng tôi</li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Hoạt động</li>
+                    <li>
+                        <a href="#">Rừng</a>
+                    </li>
+                    <li>
+                        <a href="#">Đại dương</a>
+                    </li>
+                    <li>
+                        <a href="#">Nước ngọt</a>
+                    </li>
+                    <li>
+                        <a href="#">Động vật hoang dã</a>
+                    </li>
+                    <li>
+                        <a href="#">Khí hậu và năng lượng</a>
+                    </li>
+                    <li>
+                        <a href="#">Thực phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Tài chính Bền vững</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tin tức</li>
+                    <li>
+                        <a href="#">Cập nhật mới nhất</a>
+                    </li>
+                    <li>
+                        <a href="#">Ấn phẩm</a>
+                    </li>
+                    <li>
+                        <a href="#">Đăng kí nhận bản tin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>Tham gia</li>
+                    <li>
+                        <a href="#">Đối tác</a>
+                    </li>
+                    <li>
+                        <a href="#">Tình nguyện viên</a>
+                    </li>
+                    <li>
+                        <a href="#">Việc làm</a>
+                    </li>
+                    <li>
+                        <a href="#">Panda Labs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul>
+                    <li>English <span style="font-weight:200; font-size:14px">GB</span></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <hr />
+        <br />
+        <br />
+        <div id="ngangduoi02" class="text-center">
+
+            <p>
+                © 2020 WWF - Tổ chức Quốc tế về Bảo tồn Thiên nhiên
+                © 1986 Biểu tượng Panda năm 1986 của Tổ chức Quốc tế
+                về Bảo tồn Thiên nhiên - WWF
+                (Tên cũ là Quỹ Động vật Hoang dã Thế giới)   ®
+                “WWF” là biểu tượng thương hiệu đã được đăng ký của WWF.
+                <a href="#" style="color:grey">Creative Commons license.</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
